@@ -1,4 +1,3 @@
-
 #pragma once
 
 #include <list>
@@ -22,7 +21,7 @@ struct RuleEntry final {
 
   Type type;
   State state;
-  std::string shasum;
+  std::string identifier;  // Changed from shasum to identifier
   std::string custom_message;
 };
 

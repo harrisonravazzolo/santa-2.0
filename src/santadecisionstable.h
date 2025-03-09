@@ -1,8 +1,6 @@
-
 #pragma once
 
 #include <osquery/sdk/sdk.h>
-
 #include "santa.h"
 
 class SantaAllowedDecisionsTablePlugin final : public osquery::TablePlugin {

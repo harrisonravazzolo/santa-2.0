@@ -1,8 +1,8 @@
-
 #pragma once
 
 #include <osquery/sdk/sdk.h>
 
+// Forward declaration for RuleEntry types
 class SantaRulesTablePlugin final : public osquery::TablePlugin {
  private:
   struct PrivateData;
